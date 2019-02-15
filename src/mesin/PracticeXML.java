@@ -74,7 +74,7 @@ public class PracticeXML {
 		Node node = null;		
 		for(int temp=0; temp<targetNodeList.getLength(); temp++) {
 			if(searchKey.equals(targetNodeList.item(temp).getTextContent())) {
-				node = targetNodeList.item(temp);
+				node = returnNodeList.item(temp);
 			}
 		}		
 		return node;
