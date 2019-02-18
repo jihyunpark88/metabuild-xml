@@ -1,4 +1,4 @@
-package mesin;
+package ex01;
 
 import java.io.File;
 import java.util.HashMap;
